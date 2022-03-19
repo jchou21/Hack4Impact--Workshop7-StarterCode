@@ -1,0 +1,24 @@
+body {
+    background-color: #c3b1e1;
+    color: black;
+    margin: 0;
+    font-family: rubik;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
